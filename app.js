@@ -104,6 +104,6 @@ app.get('/products', (req, res) => {
     ]);
 });
 
-app.listen(80, () => {
+app.listen(3000, () => {
     console.log('server running on 127.0.0.1');
 });
